@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Photo Gallery</title>
+
+<style type="text/css">
+body {
+	background: #222;
+	color: #eee;
+	margin-top: 20px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+a {
+	color: #FFF;
+}
+a:hover {
+	color: yellow;
+	text-decoration: underline;
+}
+.thumbnails img {
+	height: 80px;
+	border: 4px solid #555;
+	padding: 1px;
+	margin: 0 10px 10px 0;
+}
+
+.thumbnails img:hover {
+	border: 4px solid #00ccff;
+	cursor:pointer;
+}
+
+.preview img {
+	border: 4px solid #444;
+	padding: 1px;
+	width: 800px;
+}
+</style>
+
+</head>
+<body>
+
+<div class="gallery" align="center">
+	<h2>PHOTO GALLERY</h2>
+	<p>WORKSHOPS</p>
+
+	<br />
+
+	<div class="thumbnails">
+		<img onmouseover="preview1.src=img1.src" name="img1" src="images_gallery/w1.jpg" alt=""/>
+		<img onmouseover="preview1.src=img2.src" name="img2" src="images_gallery/w2.jpg" alt=""/>
+		<img onmouseover="preview1.src=img3.src" name="img3" src="images_gallery/w3.jpg" alt=""/>
+		<img onmouseover="preview1.src=img4.src" name="img4" src="images_gallery/w4.jpg" alt=""/>
+		<img onmouseover="preview1.src=img5.src" name="img5" src="images_gallery/w5.jpg" alt=""/>
+	</div><br/>
+
+	<div class="preview" align="center">
+		<img name="preview" src="images_gallery/w1.jpg" alt=""/>
+	</div>
+</div>
+
+<div class="gallery" align="center">
+	<p>COMPETITIONS</p>
+
+	<br />
+
+	<div class="thumbnails">
+		<img onmouseover="preview2.src=imgg1.src" name="imgg1" src="images_gallery/c1.jpg" alt=""/>
+		<img onmouseover="preview2.src=imgg2.src" name="imgg2" src="images_gallery/c2.jpg" alt=""/>
+		<img onmouseover="preview2.src=imgg3.src" name="imgg3" src="images_gallery/c3.jpg" alt=""/>
+		<img onmouseover="preview2.src=imgg4.src" name="imgg4" src="images_gallery/c4.jpg" alt=""/>
+		<img onmouseover="preview2.src=imgg5.src" name="imgg5" src="images_gallery/c5.jpg" alt=""/>
+		<img onmouseover="preview2.src=imgg6.src" name="imgg6" src="images_gallery/c6.jpg" alt=""/>
+		<img onmouseover="preview2.src=imgg7.src" name="imgg7" src="images_gallery/c7.jpg" alt=""/>		
+	</div><br/>
+
+	<div class="preview" align="center">
+		<img name="preview2" src="images_gallery/c1.jpg" alt=""/>
+	</div>
+
+</div>
+
+<div class="gallery" align="center">
+	<p>INDEPENDANT PROJECTS</p>
+
+	<br />
+
+	<div class="thumbnails">
+		<img onmouseover="preview3.src=imggg1.src" name="imggg1" src="images_gallery/p1.jpg" alt=""/>
+		<img onmouseover="preview3.src=imggg2.src" name="imggg2" src="images_gallery/p2.jpg" alt=""/>
+		<img onmouseover="preview3.src=imggg3.src" name="imggg3" src="images_gallery/p3.jpg" alt=""/>
+		<img onmouseover="preview3.src=imggg4.src" name="imggg4" src="images_gallery/p4.jpg" alt=""/>
+		<img onmouseover="preview3.src=imggg5.src" name="imggg5" src="images_gallery/p5.jpg" alt=""/>
+		<img onmouseover="preview3.src=imggg6.src" name="imggg6" src="images_gallery/p6.jpg" alt=""/>
+		<img onmouseover="preview3.src=imggg7.src" name="imggg7" src="images_gallery/p7.jpg" alt=""/>		
+	</div><br/>
+
+	<div class="preview" align="center">
+		<img name="preview3" src="images_gallery/p1.jpg" alt=""/>
+	</div>
+
+</div>
+
+
+
+</body>
+</html>
